@@ -1,4 +1,5 @@
 import React from 'react';
+import lucia from './lucia.JPG'
 
 import {
   MDBRow,
@@ -10,7 +11,6 @@ import {
   MDBCardText,
 } from 'mdbreact';
 
-import lucia from './lucia.JPG'
 
 const Contact = props => {
   return (
