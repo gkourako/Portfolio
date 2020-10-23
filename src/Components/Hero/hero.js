@@ -40,7 +40,7 @@ class Hero extends React.Component {
     const overlay = (
       <div
         id='sidenav-overlay'
-        style={{ backgroundColor: 'transparent' }}
+        style={{ backgroundColor: 'elegant-dark' }}
         onClick={this.handleTogglerClick}
       />
     );
