@@ -14,14 +14,16 @@ import {
   MDBBtn,
   MDBView,
   MDBContainer,
-  MDBSmoothScroll
+  MDBSmoothScroll,
+  MDBDropdown,
+  MDBDropdownItem
 } from 'mdbreact';
 import './hero.css';
 import boone from './IMG_0499.png'
 
 class Hero extends React.Component {
   state = {
-    collapsed: false
+    collapsed: true
   };
 
   handleTogglerClick = () => {
@@ -40,7 +42,7 @@ class Hero extends React.Component {
     const overlay = (
       <div
         id='sidenav-overlay'
-        style={{ backgroundColor: 'transparent' }}
+        style={{ backgroundColor: 'elegant-dark' }}
         onClick={this.handleTogglerClick}
       />
     );
@@ -67,7 +69,7 @@ class Hero extends React.Component {
                   </MDBSmoothScroll>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={this.handleTogglerClick} />
-                <MDBCollapse isOpen={collapsed} navbar className>
+                <MDBCollapse isOpen={collapsed} navbar scrolling>
                   <MDBNavbarNav left>
                     <MDBNavItem>
                       <MDBSmoothScroll to="work">
