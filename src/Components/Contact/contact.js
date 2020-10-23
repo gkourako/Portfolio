@@ -1,5 +1,5 @@
 import React from 'react';
-import lucia from './lucia.JPG'
+import lucia from './lucia.png'
 
 import {
   MDBRow,
