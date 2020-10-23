@@ -15,8 +15,7 @@ import {
   MDBView,
   MDBContainer,
   MDBSmoothScroll,
-  MDBDropdown,
-  MDBDropdownItem
+  
 } from 'mdbreact';
 import './hero.css';
 import boone from './IMG_0499.png'
