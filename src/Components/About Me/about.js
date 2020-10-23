@@ -1,7 +1,6 @@
 import React from 'react';
 import gk from './gk.jpg';
 import {
-  MDBCard,
   MDBCol,
   MDBContainer, 
   MDBRow,

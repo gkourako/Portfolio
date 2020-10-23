@@ -11,7 +11,6 @@ import {
   MDBMask,
   MDBRow,
   MDBCol,
-  MDBFormInline,
   MDBBtn,
   MDBView,
   MDBContainer,
