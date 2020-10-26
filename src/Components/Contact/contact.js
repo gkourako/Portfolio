@@ -19,8 +19,7 @@ const Contact = props => {
           <MDBContainer id="follow">
             <MDBRow className='py-5'>
               <MDBCol md={6} className='text-left'>
-                <MDBCard style={{ width: "22rem" } } className="ml-sm-3
-                ml-md-5">
+                <MDBCard style={{ width: "22rem" } }>
                   <img className="img-fluid" alt="Saint Lucia" src={lucia}/>
                 <MDBCardTitle className='py-2 px-2'>
                   My fundamental Quote   
