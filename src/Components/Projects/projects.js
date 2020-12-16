@@ -52,17 +52,6 @@ const ProjectsPage = () => {
             </a>
           </MDBCard>
         </MDBCol>
-        <MDBCol md="6" className="md-0 mb-4">
-          <MDBCard >
-            <img className="img-fluid" alt="coming soon" src={day} />
-
-          </MDBCard>
-        </MDBCol>
-        <MDBCol md="6" className="md-0 mb-4">
-          <MDBCard >
-            <img className="img-fluid" alt="coming soon" src={fast} />
-          </MDBCard>
-        </MDBCol>
       </MDBContainer>
     </section>
   );
